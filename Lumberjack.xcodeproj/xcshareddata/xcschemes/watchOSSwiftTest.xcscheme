@@ -1,106 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "NO"
+            buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2A37F9D918E37536009FAAA7"
-               BuildableName = "LibTest.app"
-               BlueprintName = "LibTest"
+               BlueprintIdentifier = "19EC14661B84D134000EC2E7"
+               BuildableName = "watchOSSwiftTest.app"
+               BlueprintName = "watchOSSwiftTest"
                ReferencedContainer = "container:Lumberjack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55CCBEAC19BA5E5A00957A39"
-               BuildableName = "CocoaLumbFrameworkTests.xctest"
-               BlueprintName = "CocoaLumbFrameworkTests"
+               BlueprintIdentifier = "19EC14721B84D134000EC2E7"
+               BuildableName = "watchOSSwiftTest Extension.appex"
+               BlueprintName = "watchOSSwiftTest Extension"
                ReferencedContainer = "container:Lumberjack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55CCBEAC19BA5E5A00957A39"
-               BuildableName = "CocoaLumbFrameworkTests.xctest"
-               BlueprintName = "CocoaLumbFrameworkTests"
-               ReferencedContainer = "container:Lumberjack.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2A37F9D918E37536009FAAA7"
-            BuildableName = "LibTest.app"
-            BlueprintName = "LibTest"
+            BlueprintIdentifier = "19EC14661B84D134000EC2E7"
+            BuildableName = "watchOSSwiftTest.app"
+            BlueprintName = "watchOSSwiftTest"
             ReferencedContainer = "container:Lumberjack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/iOSSwiftTest">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2A37F9D918E37536009FAAA7"
-            BuildableName = "LibTest.app"
-            BlueprintName = "LibTest"
+            BlueprintIdentifier = "19EC14661B84D134000EC2E7"
+            BuildableName = "watchOSSwiftTest.app"
+            BlueprintName = "watchOSSwiftTest"
             ReferencedContainer = "container:Lumberjack.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "19EC14661B84D134000EC2E7"
+            BuildableName = "watchOSSwiftTest.app"
+            BlueprintName = "watchOSSwiftTest"
+            ReferencedContainer = "container:Lumberjack.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/iOSSwiftTest">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2A37F9D918E37536009FAAA7"
-            BuildableName = "LibTest.app"
-            BlueprintName = "LibTest"
+            BlueprintIdentifier = "19EC14661B84D134000EC2E7"
+            BuildableName = "watchOSSwiftTest.app"
+            BlueprintName = "watchOSSwiftTest"
             ReferencedContainer = "container:Lumberjack.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "19EC14661B84D134000EC2E7"
+            BuildableName = "watchOSSwiftTest.app"
+            BlueprintName = "watchOSSwiftTest"
+            ReferencedContainer = "container:Lumberjack.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
